@@ -36,6 +36,15 @@
 		7A5FEEC2218B280D006CF7EC /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A5FEEC0218B280D006CF7EC /* AlipaySDK.bundle */; };
 		7A5FEEC3218B280D006CF7EC /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEEC1218B280D006CF7EC /* AlipaySDK.framework */; };
 		7A5FEEC6218B2814006CF7EC /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEEC5218B2814006CF7EC /* TencentOpenAPI.framework */; };
+		7A5FEEC8218B2C26006CF7EC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEEC7218B2C26006CF7EC /* CoreMotion.framework */; };
+		7A5FEECA218B2C33006CF7EC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEEC9218B2C33006CF7EC /* libc++.tbd */; };
+		7A5FEECC218B2C3D006CF7EC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEECB218B2C3D006CF7EC /* libz.tbd */; };
+		7A5FEECE218B2C44006CF7EC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEECD218B2C44006CF7EC /* SystemConfiguration.framework */; };
+		7A5FEED0218B2C50006CF7EC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEECF218B2C50006CF7EC /* CoreTelephony.framework */; };
+		7A5FEED2218B2C5B006CF7EC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEED1218B2C5B006CF7EC /* QuartzCore.framework */; };
+		7A5FEED4218B2C63006CF7EC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEED3218B2C63006CF7EC /* CoreText.framework */; };
+		7A5FEED6218B2C80006CF7EC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEED5218B2C80006CF7EC /* CoreGraphics.framework */; };
+		7A5FEED8218B2C8A006CF7EC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEED7218B2C89006CF7EC /* CFNetwork.framework */; };
 		A02B29E2FC7397B33BD05EC7 /* libPods-JSShuo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9F621EFFB845046C46704 /* libPods-JSShuo.a */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +124,15 @@
 		7A5FEEC0218B280D006CF7EC /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		7A5FEEC1218B280D006CF7EC /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
 		7A5FEEC5218B2814006CF7EC /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		7A5FEEC7218B2C26006CF7EC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		7A5FEEC9218B2C33006CF7EC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		7A5FEECB218B2C3D006CF7EC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		7A5FEECD218B2C44006CF7EC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		7A5FEECF218B2C50006CF7EC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7A5FEED1218B2C5B006CF7EC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7A5FEED3218B2C63006CF7EC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		7A5FEED5218B2C80006CF7EC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7A5FEED7218B2C89006CF7EC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		970737962D02DBFA81E8DC67 /* Pods-JSShuoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSShuoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSShuoTests/Pods-JSShuoTests.release.xcconfig"; sourceTree = "<group>"; };
 		A13FC4DE98462C1E2DE50010 /* Pods-JSShuo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSShuo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSShuo/Pods-JSShuo.debug.xcconfig"; sourceTree = "<group>"; };
 		B29893048A2739D89BF02B42 /* Pods-JSShuo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSShuo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSShuo/Pods-JSShuo.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +144,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A5FEED8218B2C8A006CF7EC /* CFNetwork.framework in Frameworks */,
+				7A5FEED6218B2C80006CF7EC /* CoreGraphics.framework in Frameworks */,
+				7A5FEED4218B2C63006CF7EC /* CoreText.framework in Frameworks */,
+				7A5FEED2218B2C5B006CF7EC /* QuartzCore.framework in Frameworks */,
+				7A5FEED0218B2C50006CF7EC /* CoreTelephony.framework in Frameworks */,
+				7A5FEECE218B2C44006CF7EC /* SystemConfiguration.framework in Frameworks */,
+				7A5FEECC218B2C3D006CF7EC /* libz.tbd in Frameworks */,
+				7A5FEECA218B2C33006CF7EC /* libc++.tbd in Frameworks */,
+				7A5FEEC8218B2C26006CF7EC /* CoreMotion.framework in Frameworks */,
 				A02B29E2FC7397B33BD05EC7 /* libPods-JSShuo.a in Frameworks */,
 				7A5FEEC6218B2814006CF7EC /* TencentOpenAPI.framework in Frameworks */,
 				7A5FEEC3218B280D006CF7EC /* AlipaySDK.framework in Frameworks */,
@@ -348,6 +375,15 @@
 		987926DE9B9DF7A3A01F33D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7A5FEED7218B2C89006CF7EC /* CFNetwork.framework */,
+				7A5FEED5218B2C80006CF7EC /* CoreGraphics.framework */,
+				7A5FEED3218B2C63006CF7EC /* CoreText.framework */,
+				7A5FEED1218B2C5B006CF7EC /* QuartzCore.framework */,
+				7A5FEECF218B2C50006CF7EC /* CoreTelephony.framework */,
+				7A5FEECD218B2C44006CF7EC /* SystemConfiguration.framework */,
+				7A5FEECB218B2C3D006CF7EC /* libz.tbd */,
+				7A5FEEC9218B2C33006CF7EC /* libc++.tbd */,
+				7A5FEEC7218B2C26006CF7EC /* CoreMotion.framework */,
 				F0C9F621EFFB845046C46704 /* libPods-JSShuo.a */,
 				07D21E4F3FE796E0EC111709 /* libPods-JSShuoTests.a */,
 				45918ABA94D7C616D6E9C28A /* libPods-JSShuoUITests.a */,
