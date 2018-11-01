@@ -15,6 +15,7 @@
 		7A5FEE5B218ACBAE006CF7EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A5FEE5A218ACBAE006CF7EC /* Assets.xcassets */; };
 		7A5FEE5E218ACBAE006CF7EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A5FEE5C218ACBAE006CF7EC /* LaunchScreen.storyboard */; };
 		7A5FEE61218ACBAE006CF7EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5FEE60218ACBAE006CF7EC /* main.m */; };
+		7A5FEE6B218ACBAE006CF7EC /* JSShuoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5FEE6A218ACBAE006CF7EC /* JSShuoTests.m */; };
 		7A5FEE76218ACBAE006CF7EC /* JSShuoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5FEE75218ACBAE006CF7EC /* JSShuoUITests.m */; };
 		7A5FEE88218AFB3E006CF7EC /* JSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5FEE87218AFB3E006CF7EC /* JSBaseViewController.m */; };
 		7A5FEE8B218AFBAC006CF7EC /* JSTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5FEE8A218AFBAC006CF7EC /* JSTabBarViewController.m */; };
