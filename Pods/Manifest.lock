@@ -38,6 +38,8 @@ PODS:
   - RTRootNavigationController (0.6.7):
     - RTRootNavigationController/Core (= 0.6.7)
   - RTRootNavigationController/Core (0.6.7)
+  - WechatOpenSDK (1.8.2)
+  - Weibo_SDK (3.2.3)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
@@ -50,6 +52,8 @@ DEPENDENCIES:
   - MJRefresh (~> 3.1.15.7)
   - pop (~> 1.0.10)
   - RTRootNavigationController (~> 0.6.7)
+  - WechatOpenSDK (~> 1.8.2)
+  - Weibo_SDK (~> 3.2.3)
   - YYKit (~> 1.0.9)
 
 SPEC REPOS:
@@ -61,6 +65,8 @@ SPEC REPOS:
     - MJRefresh
     - pop
     - RTRootNavigationController
+    - WechatOpenSDK
+    - Weibo_SDK
     - YYKit
 
 SPEC CHECKSUMS:
@@ -71,8 +77,10 @@ SPEC CHECKSUMS:
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
   RTRootNavigationController: d6aa6cbb78a3eaecea4f6e4df63f15dd887836b8
+  WechatOpenSDK: 676feec516a11173eafd1fe64b10d27babf28701
+  Weibo_SDK: 652ca78c2f7147a5de5e75e7cbea89838a81772a
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: ddf3a16c2626a257ae507716fbfa11729c9d5ced
+PODFILE CHECKSUM: 6a42c312d5294f4244343fa2336606433793e2b8
 
 COCOAPODS: 1.5.3

@@ -33,6 +33,9 @@
 		7A5FEEB7218B0D6D006CF7EC /* JSVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5FEEB6218B0D6D006CF7EC /* JSVideoViewController.m */; };
 		7A5FEEBA218B0D7C006CF7EC /* JSProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5FEEB9218B0D7C006CF7EC /* JSProfileViewController.m */; };
 		7A5FEEBD218B0D8A006CF7EC /* JSMissionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A5FEEBC218B0D8A006CF7EC /* JSMissionViewController.m */; };
+		7A5FEEC2218B280D006CF7EC /* AlipaySDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7A5FEEC0218B280D006CF7EC /* AlipaySDK.bundle */; };
+		7A5FEEC3218B280D006CF7EC /* AlipaySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEEC1218B280D006CF7EC /* AlipaySDK.framework */; };
+		7A5FEEC6218B2814006CF7EC /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5FEEC5218B2814006CF7EC /* TencentOpenAPI.framework */; };
 		A02B29E2FC7397B33BD05EC7 /* libPods-JSShuo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F0C9F621EFFB845046C46704 /* libPods-JSShuo.a */; };
 /* End PBXBuildFile section */
 
@@ -109,6 +112,9 @@
 		7A5FEEB9218B0D7C006CF7EC /* JSProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSProfileViewController.m; sourceTree = "<group>"; };
 		7A5FEEBB218B0D8A006CF7EC /* JSMissionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSMissionViewController.h; sourceTree = "<group>"; };
 		7A5FEEBC218B0D8A006CF7EC /* JSMissionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSMissionViewController.m; sourceTree = "<group>"; };
+		7A5FEEC0218B280D006CF7EC /* AlipaySDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		7A5FEEC1218B280D006CF7EC /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		7A5FEEC5218B2814006CF7EC /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
 		970737962D02DBFA81E8DC67 /* Pods-JSShuoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSShuoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSShuoTests/Pods-JSShuoTests.release.xcconfig"; sourceTree = "<group>"; };
 		A13FC4DE98462C1E2DE50010 /* Pods-JSShuo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSShuo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSShuo/Pods-JSShuo.debug.xcconfig"; sourceTree = "<group>"; };
 		B29893048A2739D89BF02B42 /* Pods-JSShuo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSShuo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSShuo/Pods-JSShuo.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A02B29E2FC7397B33BD05EC7 /* libPods-JSShuo.a in Frameworks */,
+				7A5FEEC6218B2814006CF7EC /* TencentOpenAPI.framework in Frameworks */,
+				7A5FEEC3218B280D006CF7EC /* AlipaySDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +189,7 @@
 		7A5FEE50218ACBAD006CF7EC /* JSShuo */ = {
 			isa = PBXGroup;
 			children = (
+				7A5FEEBE218B2429006CF7EC /* Libs */,
 				7A5FEEAE218B0D00006CF7EC /* Mission */,
 				7A5FEEAD218B0CF5006CF7EC /* Profile */,
 				7A5FEEAC218B0CEE006CF7EC /* Video */,
@@ -310,6 +319,32 @@
 			path = Mission;
 			sourceTree = "<group>";
 		};
+		7A5FEEBE218B2429006CF7EC /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				7A5FEEC4218B2814006CF7EC /* QQ */,
+				7A5FEEBF218B280D006CF7EC /* AliPay */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		7A5FEEBF218B280D006CF7EC /* AliPay */ = {
+			isa = PBXGroup;
+			children = (
+				7A5FEEC0218B280D006CF7EC /* AlipaySDK.bundle */,
+				7A5FEEC1218B280D006CF7EC /* AlipaySDK.framework */,
+			);
+			path = AliPay;
+			sourceTree = "<group>";
+		};
+		7A5FEEC4218B2814006CF7EC /* QQ */ = {
+			isa = PBXGroup;
+			children = (
+				7A5FEEC5218B2814006CF7EC /* TencentOpenAPI.framework */,
+			);
+			path = QQ;
+			sourceTree = "<group>";
+		};
 		987926DE9B9DF7A3A01F33D8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -430,6 +465,7 @@
 			files = (
 				7A5FEE5E218ACBAE006CF7EC /* LaunchScreen.storyboard in Resources */,
 				7A5FEE5B218ACBAE006CF7EC /* Assets.xcassets in Resources */,
+				7A5FEEC2218B280D006CF7EC /* AlipaySDK.bundle in Resources */,
 				7A5FEE59218ACBAD006CF7EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -513,10 +549,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-JSShuo/Pods-JSShuo-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/Weibo_SDK/libWeiboSDK/WeiboSDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -723,6 +761,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8V3F299DM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JSShuo/Libs/AliPay",
+					"$(PROJECT_DIR)/JSShuo/Libs/QQ",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $SRCROOT/JSShuo/JSShouPrefixHeader.pch;
 				INFOPLIST_FILE = JSShuo/Info.plist;
@@ -745,6 +788,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A8V3F299DM;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/JSShuo/Libs/AliPay",
+					"$(PROJECT_DIR)/JSShuo/Libs/QQ",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $SRCROOT/JSShuo/JSShouPrefixHeader.pch;
 				INFOPLIST_FILE = JSShuo/Info.plist;
